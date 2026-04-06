@@ -4,6 +4,8 @@ A powerful Python-based DNS reconnaissance tool built for **security engineers, 
 
 This CLI tool performs DNS enumeration, WHOIS lookups, subdomain brute forcing, and DNS tracing — all in one place.
 
+⚡ Built with performance-focused multithreading for fast reconnaissance.
+
 ---
 
 # 🚀 Features
