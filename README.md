@@ -164,9 +164,8 @@ Do not use it on systems without proper authorization.
 
 # 👩‍💻 Author
 
-**Tawa Jagtap**
+**Tanishqa Jagtap**
 📧 [jagtaptanishqa03@gmail.com](mailto:jagtaptanishqa03@gmail.com)
-📸 @tanishqaaaa._
 
 ---
 
@@ -187,8 +186,3 @@ If you like this project:
 * Subdomain takeover detection
 * API integrations
 
----
-
-# 📜 License
-
-MIT License
