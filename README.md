@@ -148,6 +148,19 @@ dnslookup/
 
 ---
 
+# 🧠 Learn
+
+This project includes structured learning modules covering security theory, architecture, and implementation.
+
+Module	Topic
+00 - Overview	Open
+01 - Concepts	Open
+02 - Architecture	Open
+03 - Implementation	Open
+04 - Challenges	Open
+
+📂 Create a /docs folder and add these files so each module opens as a separate page.
+
 # 💀 Real-World Use Cases
 
 * Bug bounty reconnaissance
