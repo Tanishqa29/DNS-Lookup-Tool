@@ -98,17 +98,21 @@ dnslookup/
 
 ---
 
-# 🧠 Learn
+## 🧠 Learn
 
 This project includes structured learning modules covering security theory, architecture, and implementation.
 
-| Module | Topic |
-|------|--------|
-| 00 | Overview |
-| 01 | Concepts |
-| 02 | Architecture |
-| 03 | Implementation |
-| 04 | Challenge |
+---
+
+| Module | Topic | Open |
+|--------|------|------|
+| 00 | Overview | [Open](docs/00-Overview.md) |
+| 01 | Concepts | [Open](docs/01-Concepts.md) |
+| 02 | Architecture | [Open](docs/02-Architecture.md) |
+| 03 | Implementation | [Open](docs/03-Implementation.md) |
+| 04 | Challenges | [Open](docs/04-Challenges.md) |
+
+---
 
 # 💀 Real-World Use Cases
 
