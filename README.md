@@ -85,8 +85,6 @@ dnslookup/
 │── core.py
 │── cli.py
 │── utils.py
-│── wordlist.txt
-│── requirements.txt
 │
 ├── docs/
 │   ├── 00-overview.md
