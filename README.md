@@ -29,9 +29,10 @@ It helps security learners understand how DNS works in real-world scenarios.
 git clone https://github.com/yourusername/dnslookup-cli.git
 cd dnslookup-cli
 pip install -r requirements.txt
+```
 ---
 
-# ▶️ Usage
+## ▶️ Usage
 
 ## 🔍 Query DNS Records
 
@@ -69,9 +70,7 @@ python -m dnslookup.cli batch domains.txt
 python -m dnslookup.cli brute wordlist.txt
 ```
 
----
-
-# 💾 Save Output
+## 💾 Save Output
 
 ```bash
 python -m dnslookup.cli query google.com --json --output result.json
@@ -83,13 +82,18 @@ python -m dnslookup.cli query google.com --json --output result.json
 
 ```bash
 dnslookup/
-│── core.py        # Core logic (DNS, trace, brute)
-│── cli.py         # CLI interface
-│── utils.py       # Output formatting
+│── core.py
+│── cli.py
+│── utils.py
+│── wordlist.txt
+│── requirements.txt
 │
-├── wordlist.txt
-├── requirements.txt
-└── README.md
+├── docs/
+│   ├── 00-overview.md
+│   ├── 01-concepts.md
+│   ├── 02-architecture.md
+│   ├── 03-implementation.md
+│   ├── 04-challenges.md
 ```
 
 ---
