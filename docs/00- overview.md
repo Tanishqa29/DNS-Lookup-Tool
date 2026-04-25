@@ -105,16 +105,11 @@ Identify abnormal or suspicious DNS patterns
 ---
 
 ## 🏗️ Technical Architecture
-User Command
-↓
-CLI Layer (cli.py)
-↓
-Resolver Layer (dnspython async wrapper)
-↓
-DNS Protocol Execution
-↓
-Output Formatter (Rich UI)
-↓
+User Command ->
+CLI Layer (cli.py) ->
+Resolver Layer (dnspython async wrapper) ->
+DNS Protocol Execution ->
+Output Formatter (Rich UI) ->
 Terminal / JSON Output
 
 
@@ -172,10 +167,12 @@ dnslookup batch domains.txt --output results.json
 
 ## 📁 Key Files
 
-- cli.py → Command interface  
-- resolver.py → DNS logic engine  
-- output.py → Terminal formatting  
-- whois.py → WHOIS operations  
+| File | Purpose |
+|------|--------|
+| cli.py | Command interface |
+| resolver.py | DNS logic engine |
+| output.py | Terminal formatting |
+| whois.py | WHOIS operations |
 
 ---
 
