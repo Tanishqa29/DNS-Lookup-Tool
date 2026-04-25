@@ -1,62 +1,34 @@
-## 🔥 DNSLookup CLI — Cybersecurity Recon Tool
+# 🌐 DNSLookup CLI
 
-A powerful Python-based DNS reconnaissance tool built for **security engineers, bug bounty hunters, and learners**.
-
-This CLI tool performs DNS enumeration, WHOIS lookups, subdomain brute forcing, and DNS tracing — all in one place.
-
-⚡ Built with performance-focused multithreading for fast reconnaissance.
+Cybersecurity Projects | Python | Recon Tool
 
 ---
 
-# 🚀 Features
+## 🔥 Overview
 
-### 🔍 DNS Enumeration
+DNSLookup CLI is a lightweight **DNS reconnaissance tool** used for domain intelligence gathering, DNS analysis, and basic security research.
 
-* A, AAAA, MX, NS, TXT, CNAME, SOA records
-* Clean terminal output using Rich
-
-### 🔁 Reverse Lookup
-
-* Convert IP → Domain (PTR resolution)
-
-### 🌐 WHOIS Lookup
-
-* Domain registration details
-* Ownership & metadata
-
-### 🧵 DNS Trace (dig +trace style)
-
-* Root → TLD → Authoritative servers
-* Nameserver IP resolution included
-
-### 📂 Batch Scanning
-
-* Scan multiple domains from a file
-* Multithreaded execution ⚡
-
-### 💀 Subdomain Brute Force
-
-* Discover hidden subdomains
-* Supports custom wordlists
-* Fast parallel execution
-
-### 💾 JSON Output Export
-
-* Save results for automation
-* Useful for pipelines & reporting
+It helps security learners understand how DNS works in real-world scenarios.
 
 ---
 
-# ⚙️ Installation
+## ⚙️ What It Does
+
+- DNS record lookup (A, AAAA, MX, NS, TXT, CNAME, SOA)
+- Reverse IP lookup
+- WHOIS domain information
+- DNS resolution tracing
+- Batch domain scanning
+- JSON export support
+
+---
+
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/yourusername/dnslookup-cli.git
 cd dnslookup-cli
-python -m venv .venv
-.venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-```
-
 ---
 
 # ▶️ Usage
@@ -104,32 +76,6 @@ python -m dnslookup.cli brute wordlist.txt
 ```bash
 python -m dnslookup.cli query google.com --json --output result.json
 ```
-
----
-
-# 📄 Example Wordlist
-
-```text
-www
-mail
-api
-admin
-dev
-test
-blog
-staging
-```
-
----
-
-# 🧠 Tech Stack
-
-* Python 🐍
-* dnspython
-* rich (CLI UI)
-* concurrent.futures (multithreading)
-* socket
-* whois
 
 ---
 
@@ -183,21 +129,4 @@ Do not use it on systems without proper authorization.
 📧 [jagtaptanishqa03@gmail.com](mailto:jagtaptanishqa03@gmail.com)
 
 ---
-
-# ⭐ Support
-
-If you like this project:
-
-* ⭐ Star the repo
-* 🍴 Fork it
-* 🚀 Share it
-
----
-
-# 🔥 Future Improvements
-
-* Banner grabbing
-* ASN lookup
-* Subdomain takeover detection
-* API integrations
 
