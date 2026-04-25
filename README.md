@@ -102,14 +102,13 @@ dnslookup/
 
 This project includes structured learning modules covering security theory, architecture, and implementation.
 
-Module	Topic
-00 - Overview	Open
-01 - Concepts	Open
-02 - Architecture	Open
-03 - Implementation	Open
-04 - Challenges	Open
-
-📂 Create a /docs folder and add these files so each module opens as a separate page.
+| Module | Topic |
+|------|--------|
+| 00 | Overview |
+| 01 | Concepts |
+| 02 | Architecture |
+| 03 | Implementation |
+| 04 | Challenge |
 
 # 💀 Real-World Use Cases
 
