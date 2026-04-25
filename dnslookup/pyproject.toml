@@ -1,0 +1,17 @@
+[project]
+name = "dnslookup-tool"
+version = "1.0.0"
+description = "Cybersecurity DNS Recon Tool"
+dependencies = [
+    "dnspython",
+    "rich",
+    "fastapi",
+    "uvicorn"
+]
+
+[project.scripts]
+dnslookup = "dnslookup.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
